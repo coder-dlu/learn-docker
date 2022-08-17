@@ -337,3 +337,8 @@ docker ps
 docker ps -a
 ```
  ![Container](img1.png)
+
+- Chạy 
+```Dockerfile
+docker logs 7be0d537f933
+```
