@@ -27,7 +27,6 @@ Chú thích: REPOSITORY là tên của image, TAG là phiên bản của image, 
 
 Có thể Xem các Image của docker tại đây: https://hub.docker.com/search?q=image&type=image
 - Có thể tìm kiếm image trên Windows powerShell theo cú pháp: docker search keyword
--  vào https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
 tài azure data studio về.
 ![Container](searchImage.PNG)
 
@@ -345,3 +344,14 @@ docker logs 7be0d537f933
 ```
 => sẽ thấy những gì diễn ra trên container đó.
 Cài azure data vysual https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
+- Cài đặt và chạy lên
+- connect: 
++Server: localhost
++ Authencation type: Login SQL
++ username: sa
++ password: root@123456789
+=> connect:
+
+ ![Container](img2.png)
+ - Vào database chon master click chuột phải chọn new query và chọn run
+  ![Container](img3.png)
