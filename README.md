@@ -342,3 +342,4 @@ docker ps -a
 ```Dockerfile
 docker logs 7be0d537f933
 ```
+=> sẽ thấy những gì diễn ra trên container đó.
