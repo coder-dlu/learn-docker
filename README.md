@@ -27,7 +27,8 @@ Chú thích: REPOSITORY là tên của image, TAG là phiên bản của image, 
 
 Có thể Xem các Image của docker tại đây: https://hub.docker.com/search?q=image&type=image
 - Có thể tìm kiếm image trên Windows powerShell theo cú pháp: docker search keyword
-
+-  vào https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
+tài azure data studio về.
 ![Container](searchImage.PNG)
 
   - Muốn cài đặt một image ta sử dụng câu lệnh: docker pull image:tag
