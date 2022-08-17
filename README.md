@@ -344,3 +344,4 @@ docker ps -a
 docker logs 7be0d537f933
 ```
 => sẽ thấy những gì diễn ra trên container đó.
+Cài azure data vysual https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
