@@ -373,3 +373,5 @@ VALUES('Le Sy Hung',22);
 ```
 
  ![Container](img4.png)
+
+# VI: Lưu trữ SQL Server Database với Docker Volume
