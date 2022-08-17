@@ -1,5 +1,5 @@
 # learn-docker
-# 1: Dockek là gì?
+# I: Dockek là gì?
 - docker là ứng dụng mã nguồn mở.nó giúp cho chúng ta tạo ra các container để chúng ta phát triển triển khai ứng dụng. Hay có thể hiểu là nó cho ứng dụng chạy trong môi trường cách ly gọi là container.Chúng ta có thể xem container như là một máy ảo.
 - Đây là mô hình mô tả hoạt động của docker:
 
@@ -10,7 +10,7 @@
 
 ![Container](VMs_Docker.PNG)
 
-# 2: Lệnh sử dụng docker
+# II: Lệnh sử dụng docker
 -  Image trong docker là những phần mềm được đóng gói và quản lý bởi docker.
 -  Ví Dụ:
   + Images đóng gói hệ điều hành PHP
@@ -104,8 +104,8 @@ docker container start -i containerid
 #Chạy một lệnh trên container đang chạy
 docker exec -it containerid command
 ```
-## 3Lệnh Docker exec, lưu container thành image với commit, xuất image ra file
-## 1.1:
+# III/Lệnh Docker exec, lưu container thành image với commit, xuất image ra file
+## 1:
 
 ![Container](aa.PNG)
 
@@ -172,4 +172,4 @@ docker exec -it containerid command
 
 -   Bây giờ chúng ta có thể lưu dữ liệu mà không sợ mất đi khi chúng ta xóa container.
 https://www.youtube.com/watch?v=Bemy5gBjZrE&list=PLWBrqglnjNl3TDF6WKpAl4maE3yJ5CpYF
-## 3.Làm việc với Docker Image,Container,kết nối SQL Server
+## IV.Làm việc với Docker Image,Container,kết nối SQL Server
