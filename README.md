@@ -353,5 +353,23 @@ Cài azure data vysual https://docs.microsoft.com/en-us/sql/azure-data-studio/do
 => connect:
 
  ![Container](img2.png)
+ 
  - Vào database chon master click chuột phải chọn new query và chọn run
+ 
   ![Container](img3.png)
+  
+Nhập vào query:
+```Dockerfile
+CREATE DATABASE TestDB;
+USE TestDB;
+CREATE TABLE tblStudent(
+        studentId INT IDENTITY(1, 1),
+        studentName NVARCHAR(100),
+        AGE INT CHECK(age > 0)
+);
+SELECT * FROM tblStudent;
+INSERT INTO tblStudent(studentName,AGE)
+VALUES('Le Sy Hung',22);
+```
+
+ ![Container](img4.png)
