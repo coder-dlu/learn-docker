@@ -301,4 +301,14 @@ MSQL 8.0
 
 -   Chạy 
 https://www.youtube.com/watch?v=Bemy5gBjZrE&list=PLWBrqglnjNl3TDF6WKpAl4maE3yJ5CpYF
-## IV.Làm việc với Docker Image,Container,kết nối SQL Server
+# V.Làm việc với Docker Image,Container,kết nối SQL Server
+## 1: 
+Truy cập https://hub.docker.com/ đăng nhập tài khoản và tìm kiếm mysql image.
+(chúng ta nên cho lệnh đó vào file text sau đó chúng ta chạy lệnh trong file text đó lên terminal sau.
+chạy lệnh docker pull mysql và ghi vào file txt
+- Khi chạy xong trên terminal chúng ta kiểm  tra nó đã được cài về chưa bằng lênh docker images
+```Dockerfile
+docker images
+```
+
+![Container](img.png)
