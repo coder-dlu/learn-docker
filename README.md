@@ -312,3 +312,28 @@ docker images
 ```
 
 ![Container](img.png)
+
+file.txt
+```Dockerfile
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+docker pull mcr.microsoft.com/mssql/server:2017-latest
+tag = version
+Create containers from images
+1image => multiple containers
+-d : Detach(background) mode
+-e : enviroment variables (Các biến môi trường)
+--name : Container's name
+-p : port
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=root@123456789" --name sql-server-2019-container -p 1435:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+```
+chạy terminal:
+```Dockerfile
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=root@123456789" --name sql-server-2019-container -p 1435:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+```
+```Dockerfile
+docker ps
+```
+```Dockerfile
+docker ps -a
+```
+ ![Container](img1.png)
